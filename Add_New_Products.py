@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import json
 print("_________________________________________Inventory Management System__________________________________________")
 f1 = open("record.json",'r')
@@ -45,9 +39,6 @@ data = json.dumps(data)
 f1 = open("record.json",'w')
 f1.write(data)
 f1.close()
-
-
-# In[ ]:
 
 
 
