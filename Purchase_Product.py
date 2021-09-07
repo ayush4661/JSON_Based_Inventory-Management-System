@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import json
 print("__________________________________________Fill the details to Purchase Product_______________________________________")
 f2 = open("sales.json",'r')
@@ -63,10 +57,3 @@ while(choice == 'Y' or choice == 'y' ):
         print(data[p_id]['qn'])
     choice = str(input("Do you wants to perform other operations? type: 'Y' for Yes\n"))
 print("--------------------- Thanks for Visiting! ---------------------")
-
-
-# In[ ]:
-
-
-
-
