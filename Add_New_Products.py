@@ -39,7 +39,3 @@ data = json.dumps(data)
 f1 = open("record.json",'w')
 f1.write(data)
 f1.close()
-
-
-
-
